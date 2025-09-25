@@ -1,8 +1,5 @@
 # Project Structure Documentation
 
-## Overview
-This project is organized for clarity and scalability. Below is a description of the folder structure and configuration files.
-
 ## Folder Structure
 ```
 src/
@@ -28,13 +25,8 @@ src/
 - `.env`: Environment variables
 - `.gitignore`: Files/folders to ignore in Git
 
-## Custom npm Scripts
-- Defined in `package.json` for linting, formatting, testing, etc.
-
 ## How to Use
-- Import components/screens via their folder index files for cleaner code.
+- Import components/screens via their folder index files 
 - Use npm scripts for development tasks.
-- Store secrets and config in `.env` (never commit sensitive info).
+- Store important stuff  in `.env` (never commit sensitive info).
 
-## Notes
-- See the lab report PDF for screenshots and troubleshooting documentation.
