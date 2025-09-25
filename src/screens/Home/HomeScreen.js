@@ -7,9 +7,9 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <Header title="Home Screen" />
       <ScrollView style={styles.content}>
-        <Text style={styles.welcomeText}>Welcome to CPAN 213!</Text>
+        <Text style={styles.welcomeText}>Welcome to CPAN 213 lab 2!</Text>
         <Text style={styles.description}>
-          This is your properly structured React Native application.
+          This is a properly structured React Native application.
         </Text>
       </ScrollView>
     </View>
